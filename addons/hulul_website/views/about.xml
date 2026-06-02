@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <template id="hulul_aboutpage" name="Hulul About">
+        <html>
+
+        <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <title>Hulul-IT Development</title>
+
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="preload" href="assets/css/plugins/fontawesome.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/plugins/swiper.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/plugins/unicons.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/plugins/metismenu.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/plugins/magnific-popup.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/plugins/hover-revel.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/plugins/timepickers.min.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/plugins/odometer.css" as="style" onload="this.rel='stylesheet'">
+
+    <link rel="preload" href="assets/css/vendor/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/vendor/spacing.css" as="style" onload="this.rel='stylesheet'">
+
+    <link rel="preload" as="image" href="assets/images/videos/02.mp4">
+
+    <!-- ONLY CHANGE DONE HERE -->
+    <link rel="stylesheet" href="/workspaces/my-odoo-project/addons/hulul_website/static/src/css/style.css">
+</head>
+            <body> 
+                
+            </body>
+        </html>
+      </template>
+</odoo>
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="home_page" name="Home Page" inherit_id="hulul_website.hulul_base">
+
+        <xpath expr="//main[@id='wrap']" position="inside">
+
+            <section>
+                <h2>Home Page Content</h2>
+            </section>
+
+        </xpath>
+
+    </template>
+
+</odoo>

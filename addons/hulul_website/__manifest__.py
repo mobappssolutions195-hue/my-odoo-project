@@ -3,9 +3,14 @@
     'version': '1.0',
     'depends': ['website'],
 
-    'data': [
-        'views/index.xml',
-    ],
+'data': [
+    'views/base.xml',
+    'views/header.xml',
+    'views/footer.xml',
+    # 'views/about.xml',
+    'views/page.xml',
+    'views/index.xml',
+],
 
     'assets': {
         'web.assets_frontend': [

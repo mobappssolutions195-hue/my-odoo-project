@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="footer">
+
+    <footer class="main-footer">
+        <p>© 2026 Hulul Website</p>
+    </footer>
+
+</template>
+</odoo>
