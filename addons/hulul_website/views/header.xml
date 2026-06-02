@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-<template id="header">
-    <header class="main-header">
-        <nav>
-            <h1>My Website Header</h1>
-        </nav>
-    </header>
-</template>
+
+    <template id="custom_header">
+        <header>
+            <div class="container">
+                <h1>Hulul Website</h1>
+            </div>
+        </header>
+    </template>
+
 </odoo>

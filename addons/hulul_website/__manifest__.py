@@ -4,11 +4,12 @@
     'depends': ['website'],
 
 'data': [
-    'views/base.xml',
+    
     'views/header.xml',
     'views/footer.xml',
-    # 'views/about.xml',
-    'views/page.xml',
+    'views/base.xml',
+    'views/homepage.xml',
+    'views/about.xml',
     'views/index.xml',
 ],
 

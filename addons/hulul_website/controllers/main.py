@@ -6,7 +6,16 @@ class HululWebsite(http.Controller):
     def hulul_home(self, **kw):
         return request.render('hulul_website.hulul_homepage', {'title': 'Hulul-IT Development'})
 
-class DemoHululWebsite(http.Controller):
-    @http.route('/demo', auth='public', website=True)
+# class DemoHululWebsite(http.Controller):
+#     @http.route('/demo', auth='public', website=True)
+#     def home(self, **kw):
+#         return http.request.render('hulul_website.home_page')
+
+class HululWebsite(http.Controller):
+    @http.route('/', auth='public', website=True)
     def home(self, **kw):
-        return http.request.render('hulul_website.home_page', {})
+        return request.render('hulul_website.home_page')
+
+    @http.route('/about', auth='public', website=True)
+    def about(self, **kw):
+        return request.render('hulul_website.about_page')

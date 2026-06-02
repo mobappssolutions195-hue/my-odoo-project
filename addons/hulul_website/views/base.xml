@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="hulul_base" name="Hulul Base">
 
-        <t t-call="website.layout">
+    <template id="base_layout" name="Base Layout">
 
-            <!-- Assets -->
-            <t t-call-assets="web.assets_frontend"/>
+        <t t-call="hulul_website.custom_header"/>
 
-            <!-- HEADER -->
-            <t t-call="hulul_website.header"/>
+        <main class="page-content">
+            <t t-out="0"/>
+        </main>
 
-            <!-- MAIN CONTENT -->
-            <main id="wrap">
-                <t t-raw="0"/>
-            </main>
-
-            <!-- FOOTER -->
-            <t t-call="hulul_website.footer"/>
-
-        </t>
+        <t t-call="hulul_website.custom_footer"/>
 
     </template>
+
 </odoo>

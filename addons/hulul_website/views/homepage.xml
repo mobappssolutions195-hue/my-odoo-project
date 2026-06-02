@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="home_page" name="Home Page">
+
+        <t t-call="hulul_website.base_layout">
+
+            <section class="hero">
+                <div class="container">
+                    <h2>Welcome to Hulul Website</h2>
+                    <p>This page uses the common header and footer.</p>
+                </div>
+            </section>
+
+        </t>
+
+    </template>
+
+</odoo>
